@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="5WF-qI-f1q" customClass="LogoutView" customModule="Sahmak" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="534" height="397"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ikU-66-Ea9">
+                    <rect key="frame" x="16" y="59" width="502" height="304"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DsA-Dd-WCu">
+                            <rect key="frame" x="32" y="40.666666666666686" width="438" height="223"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="exclamation" translatesAutoresizingMaskIntoConstraints="NO" id="U0c-pN-YxS">
+                                    <rect key="frame" x="203" y="0.0" width="32" height="32"/>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Log out" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aJI-4H-A87">
+                                    <rect key="frame" x="190.33333333333334" y="42" width="57.666666666666657" height="20.5"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="localizeKey" value="log_out"/>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="regular14Color">
+                                            <color key="value" name="Black"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="regular">
+                                            <real key="value" value="14"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Are you sure you want to logout?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WmE-ii-Ebh">
+                                    <rect key="frame" x="94.666666666666657" y="78.5" width="248.99999999999997" height="20.5"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" name="#3C3C43"/>
+                                    <nil key="highlightedColor"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="localizeKey" value="are_sure_logout"/>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="regular12Color">
+                                            <color key="value" name="Gray800"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="regular">
+                                            <real key="value" value="12"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </label>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="J9o-hD-FsD">
+                                    <rect key="frame" x="20" y="119" width="398" height="104"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6MY-4h-Ow6" customClass="GradientButton" customModule="SwiftGradientButton">
+                                            <rect key="frame" x="0.0" y="0.0" width="398" height="48"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="48" id="S24-Rm-cmc"/>
+                                            </constraints>
+                                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                            <state key="normal" title="Log out"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="point" keyPath="startPoint">
+                                                    <point key="value" x="0.5" y="0.5"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="color" keyPath="startColor">
+                                                    <color key="value" red="0.1960784314" green="0.29803921570000003" blue="0.52549019610000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="color" keyPath="endColor">
+                                                    <color key="value" red="0.20784313730000001" green="0.61568627450000002" blue="0.83529411760000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                    <real key="value" value="8"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="point" keyPath="endPoint">
+                                                    <point key="value" x="1" y="0.5"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="medium">
+                                                    <real key="value" value="16"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="localizeKey" value="Log out"/>
+                                            </userDefinedRuntimeAttributes>
+                                            <connections>
+                                                <action selector="onTappedConfirmButton:" destination="5WF-qI-f1q" eventType="touchUpInside" id="TVO-BO-KCK"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="REt-SW-PJG">
+                                            <rect key="frame" x="0.0" y="64.000000000000028" width="398" height="40"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="40" id="qWm-Ka-gNh"/>
+                                            </constraints>
+                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                            <state key="normal" title="Cancel">
+                                                <color key="titleColor" name="#808080"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="color" keyPath="bgColor">
+                                                    <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                                    <color key="value" name="Grey"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="localizeKey" value="cancel"/>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="isBigger" value="NO"/>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="medium">
+                                                    <real key="value" value="14"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                            <connections>
+                                                <action selector="onTappedCloseButton:" destination="5WF-qI-f1q" eventType="touchUpInside" id="90a-Al-isV"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="WmE-ii-Ebh" firstAttribute="centerX" secondItem="DsA-Dd-WCu" secondAttribute="centerX" id="2O0-dD-lv1"/>
+                                <constraint firstItem="U0c-pN-YxS" firstAttribute="centerX" secondItem="DsA-Dd-WCu" secondAttribute="centerX" id="DbA-OW-P55"/>
+                                <constraint firstAttribute="trailing" secondItem="J9o-hD-FsD" secondAttribute="trailing" constant="20" id="PyT-vA-JwO"/>
+                                <constraint firstItem="aJI-4H-A87" firstAttribute="centerX" secondItem="DsA-Dd-WCu" secondAttribute="centerX" id="ZFL-7G-5jf"/>
+                                <constraint firstItem="aJI-4H-A87" firstAttribute="top" secondItem="U0c-pN-YxS" secondAttribute="bottom" constant="10" id="cSv-j6-bKH"/>
+                                <constraint firstAttribute="bottom" secondItem="J9o-hD-FsD" secondAttribute="bottom" id="cyb-RP-pvb"/>
+                                <constraint firstItem="WmE-ii-Ebh" firstAttribute="top" secondItem="aJI-4H-A87" secondAttribute="bottom" constant="16" id="gLI-cs-Tfo"/>
+                                <constraint firstItem="J9o-hD-FsD" firstAttribute="leading" secondItem="DsA-Dd-WCu" secondAttribute="leading" constant="20" id="gcg-pu-qkN"/>
+                                <constraint firstItem="U0c-pN-YxS" firstAttribute="top" secondItem="DsA-Dd-WCu" secondAttribute="top" id="i74-cS-c7s"/>
+                                <constraint firstItem="J9o-hD-FsD" firstAttribute="top" secondItem="WmE-ii-Ebh" secondAttribute="bottom" constant="16" id="lnt-MQ-woC"/>
+                                <constraint firstAttribute="height" constant="223" id="r5A-gg-Der"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="DsA-Dd-WCu" firstAttribute="top" relation="greaterThanOrEqual" secondItem="ikU-66-Ea9" secondAttribute="top" constant="16" id="1dO-5I-i0l"/>
+                        <constraint firstItem="DsA-Dd-WCu" firstAttribute="leading" secondItem="ikU-66-Ea9" secondAttribute="leading" constant="32" id="FVz-pd-Gli"/>
+                        <constraint firstAttribute="trailing" secondItem="DsA-Dd-WCu" secondAttribute="trailing" constant="32" id="JPq-bI-wtR"/>
+                        <constraint firstItem="DsA-Dd-WCu" firstAttribute="centerX" secondItem="ikU-66-Ea9" secondAttribute="centerX" id="O6C-qO-gRi"/>
+                        <constraint firstItem="DsA-Dd-WCu" firstAttribute="centerY" secondItem="ikU-66-Ea9" secondAttribute="centerY" id="pi5-sm-Axc"/>
+                        <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="DsA-Dd-WCu" secondAttribute="bottom" constant="16" id="rPr-lK-T8I"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="0mg-QK-77X"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="ikU-66-Ea9" firstAttribute="top" secondItem="0mg-QK-77X" secondAttribute="top" id="KJE-I1-Y83"/>
+                <constraint firstItem="0mg-QK-77X" firstAttribute="trailing" secondItem="ikU-66-Ea9" secondAttribute="trailing" constant="16" id="da7-eH-nrn"/>
+                <constraint firstItem="0mg-QK-77X" firstAttribute="bottom" secondItem="ikU-66-Ea9" secondAttribute="bottom" id="jyI-jf-eak"/>
+                <constraint firstItem="ikU-66-Ea9" firstAttribute="leading" secondItem="0mg-QK-77X" secondAttribute="leading" constant="16" id="xIb-p5-cHh"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="backgroundView" destination="ikU-66-Ea9" id="xJK-Y6-KbZ"/>
+            </connections>
+            <point key="canvasLocation" x="-159.42028985507247" y="-1.6741071428571428"/>
+        </view>
+    </objects>
+    <designables>
+        <designable name="6MY-4h-Ow6">
+            <size key="intrinsicContentSize" width="59" height="35"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="exclamation" width="32" height="32"/>
+        <namedColor name="#3C3C43">
+            <color red="0.23499999940395355" green="0.23499999940395355" blue="0.2630000114440918" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="#808080">
+            <color red="0.50196078431372548" green="0.50196078431372548" blue="0.50196078431372548" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Black">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Gray800">
+            <color red="0.20000000000000001" green="0.19607843137254902" blue="0.20392156862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Grey">
+            <color red="0.32899999618530273" green="0.32400000095367432" blue="0.4779999852180481" alpha="0.33000001311302185" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

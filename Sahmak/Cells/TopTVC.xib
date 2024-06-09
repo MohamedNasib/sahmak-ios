@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TopTVC" rowHeight="108" id="KGk-i7-Jjw" customClass="TopTVC" customModule="Sahmak" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="465" height="108"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="465" height="108"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b6l-7m-Ngf">
+                        <rect key="frame" x="4" y="4" width="457" height="100"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rectangle 1576" translatesAutoresizingMaskIntoConstraints="NO" id="ETM-4c-yFO">
+                                <rect key="frame" x="8" y="13" width="74" height="74"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="74" id="Epy-BN-NzG"/>
+                                    <constraint firstAttribute="height" constant="74" id="IQC-PV-vc0"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="Jw6-VK-TsY">
+                                <rect key="frame" x="90" y="30" width="359" height="40"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10 Unit apartments" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l5T-Tc-nYb">
+                                        <rect key="frame" x="0.0" y="0.0" width="359" height="12"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="BIa-x7-vMW">
+                                        <rect key="frame" x="0.0" y="28" width="359" height="12"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="smallGPS" translatesAutoresizingMaskIntoConstraints="NO" id="GXU-Wf-lXq">
+                                                <rect key="frame" x="0.0" y="0.0" width="12" height="12"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="12" id="3xI-Dh-pWv"/>
+                                                    <constraint firstAttribute="height" constant="12" id="skQ-fW-v9q"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="cairo, Egypt" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wp1-2A-R3d">
+                                                <rect key="frame" x="20" y="0.0" width="339" height="12"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                                <color key="textColor" red="0.49019607843137253" green="0.49803921568627452" blue="0.53333333333333333" alpha="0.84705882352941175" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Jw6-VK-TsY" firstAttribute="centerY" secondItem="ETM-4c-yFO" secondAttribute="centerY" id="7j0-7E-75M"/>
+                            <constraint firstItem="ETM-4c-yFO" firstAttribute="centerY" secondItem="b6l-7m-Ngf" secondAttribute="centerY" id="Ikz-tQ-RuR"/>
+                            <constraint firstItem="Jw6-VK-TsY" firstAttribute="leading" secondItem="ETM-4c-yFO" secondAttribute="trailing" constant="8" id="T93-y0-Qzh"/>
+                            <constraint firstAttribute="trailing" secondItem="Jw6-VK-TsY" secondAttribute="trailing" constant="8" id="VFp-Rq-7I0"/>
+                            <constraint firstItem="ETM-4c-yFO" firstAttribute="leading" secondItem="b6l-7m-Ngf" secondAttribute="leading" constant="8" id="Yxp-b2-Twa"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="8"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" red="0.9137254901960784" green="0.9137254901960784" blue="0.9137254901960784" alpha="0.84705882352941175" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="b6l-7m-Ngf" secondAttribute="trailing" constant="4" id="5bP-7F-bVk"/>
+                    <constraint firstItem="b6l-7m-Ngf" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="4" id="Fjx-Z0-lIK"/>
+                    <constraint firstAttribute="bottom" secondItem="b6l-7m-Ngf" secondAttribute="bottom" constant="4" id="prw-9K-gDc"/>
+                    <constraint firstItem="b6l-7m-Ngf" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="4" id="zs1-4l-NVn"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="135.1145038167939" y="9.8591549295774659"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Rectangle 1576" width="74" height="74"/>
+        <image name="smallGPS" width="13.666666984558105" height="15.333333015441895"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

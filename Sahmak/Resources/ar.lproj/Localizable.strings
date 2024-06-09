@@ -1,0 +1,131 @@
+/* 
+  Localizable.strings
+  Sahmak
+
+  Created by Abdurrahman Alboghdady on 25/04/2023.
+  
+*/
+"sign_in" = "تسجيل الدخول";
+"sign_up" = "تسجيل";
+"login" = "تسجيل الدخول";
+"phone_number" = "رقم الهاتف";
+"password" = "كلمة المرور";
+"confirm_password" = "تأكيد كلمة المرور";
+
+"Continue" = "متابعة";
+"Welcome back. Enter your credentials to access your account" = "مرحبًا بعودتك. أدخل بيانات الدخول الخاصة بك للوصول إلى حسابك";
+"enter_your_credentials_to_register_your_account" = "مرحبًا بعودتك. أدخل بيانات الاعتماد الخاصة بك للوصول إلى حسابك";
+"enter_your_password" = "أدخل كلمة المرور";
+"agree_terms_conditions" = "بالمتابعة ، فإنك توافق على شروط الخدمة وسياسة الخصوصية الخاصة بنا.";
+"terms_of_service" = " شروط الخدمة";
+"privacy_policy" = "وسياسة الخصوصية";
+"Forget your password ?" = "هل نسيت كلمة المرور ؟";
+"Enter authentication code" = "أدخل كود التوثيق";
+"Enter the 6-digit that we have sent via the phone number" = "أدخل الرقم المكون من 6 أرقام الذي أرسلناه عبر رقم الهاتف";
+"Change number" = "تغيير رقم الهاتف";
+"Resend Code" = "إعادة إرسال الرمز";
+"saved" = "المحفوظات";
+"Your saved list is empty!" = "قائمة المحفوظات فارغه";
+"Your notifications will live" = "الإشعارات الخاصة بك سوف تظل هنا";
+"You can personalise your notifications to receive alerts based on your Programs." = ".يمكنك تخصيص إشعاراتك لتلقي التنبيهات بناءً على برامجك";
+"notification" = "الإشعارات";
+"Sell" = "بيع";
+"Owned Properties" = "الخصائص المملوكة";
+"Unit apartments" = "وحدات سكنية";
+"Ownership" = "الملكية";
+"Investment" = "استثمار";
+"Description" = "وصف";
+"EGP" = "جنيه";
+"Invalid OTP Code" = "رقم التأكد غير صحيح";
+"Got It" = "احصل";
+"skip tutorial" = "تخطي البرنامج التعليمي";
+"hello" = "اهلا";
+
+"funds" = "صناديق";
+"apartments" = "شقق سكنية";
+"villa" = "فيلا";
+
+"Confirm_Proposal" = "قم بتأكيد العرض";
+"Complete_your_profile" = "أكمل ملفك الشخصي";
+"require_deposit_range" = "يتطلب ايداع ٢٠٪ من";
+"resulte" = "النتائج";
+"log_out" = "Logout";
+"are_sure_logout" = "Are you sure you want to logout?";
+"cancel" = "Cancel";
+
+"Your_total_balance" = "رصيدك الإجمالي";
+"earn_monthly" = "اربح أرباحًا شهرية عن كل سهم تملكه";
+"Tutorial" = "البرنامج التعليمي";
+"skip tutorial" = "تخطي البرنامج التعليمي";
+"Your_Properties" = "ممتلكاتك";
+"hot_Properties" = "أهم الممتلكات";
+"view_all" = "مشاهدة الكل";
+"Search" = "بحث";
+"investing in real estates easier now" = "الاستثمار في العقارات أسهل الآن";
+"profile" = "الملف الشخصي";
+"Account" = "حساب";
+"Notification" = "إشعار";
+"Personal Data" = "بيانات شخصية";
+"Change password" = "تغيير كلمة المرور";
+"Credit Cards" = "بطاقات الائتمان";
+"Dashboard" = "لوحة التحكم";
+"Language" = "اللغة";
+"Terms" = "الشروط و الأحكام";
+"Contact Us" = "تواصل معنا";
+"FAQs" = "أسئلة وأجوبة";
+"Log out" = "تسجيل الخروج";
+"Pop-up Notification" = "اظهار الاشعارات";
+"enter your name" = "ادخل اسمك";
+"Full Name" = "الاسم كامل";
+"Birthday" = "يوم الميلاد";
+"Governorate" = "المحافظة";
+"City" = "المدينة";
+"Select governorate" = "اختر محافظة";
+"Select city" = "اختر المدينة";
+"Male" = "ذكر";
+"Female" = "انثى";
+"Add Card" = "اضافة كارت";
+"prefer to make this information private" = "تفضل أن تجعل هذه المعلومات خاصة";
+"Request to delete account" = "طلب حذف الحساب";
+"Delete Card" = "حذف كارت";
+"Are you sure you want to delete this card ?" = "هل أنت متأكد أنك تريد حذف هذه البطاقة؟";
+"No, Thanks" = "لا ، شكرا";
+"Yes, Delete" = "نعم ،احذف";
+"No Credit Cards" = "لا يوجد اي بطاقة ائتمان";
+"You don’t have any credit cards yet , add it now to continue your invests" = "ليس لديك أي بطاقات ائتمان حتى الآن ، قم بإضافتها الآن لمواصلة استثماراتك";
+"Change Password" = "تغيير كلمة المرور";
+"Old Password" = "كلمة المرور القديمة";
+"New Password" = "كلمة المرور الجديدة";
+"Confirm New Password" = "تأكيد كلمة المرور الجديدة";
+"Reset Password" = "إعادة تعيين كلمة المرور";
+"Language" = "اللغة";
+"Arabic" = "العربية";
+"English" = "الإنجليزية";
+"Ask Question" = "اسأل سؤالا";
+"Frequently Asked Questions:" = "أسئلة مكررة:";
+"ask any question you want!" = "اسأل أي سؤال تريده!";
+"write here to your question" = "اكتب هنا لسؤالك";
+"Write your question" = "اكتب سؤالك";
+"300 characters" = "٣٠٠ حرف";
+"Email Address" = "عنوان البريد الإلكتروني";
+"Contact Us On:" = "تواصل معنا على:";
+"Full Name" = "الاسم كامل";
+"E-mail" = "البريد الإلكتروني";
+"Your Message" = "رسالتك";
+"Send" = "إرسال";
+"type your message here" = "اكتب رسالتك هنا";
+"interest" = "اهتمام";
+"Funding" = "التمويل";
+"Closing" = "إغلاق";
+"Closed" = "مغلق";
+"Join Proposal" = "انضم للعرض";
+"interest_step" = "جمع الفائدة المبدئية للمقترح الاستثماري. احضر المكالمة الجماعية في التاسع عشر من سبتمبر لمناقشة ومعرفة المزيد حول التفاصيل مثل الموقع والتحليل المالي وإدارة الممتلكات.";
+"funding_step" = "إنهاء مجموعة الشراء. أرسل وديعة الأموال الجادة (EMD) لتأمين مكانك. سيتم استرداد EMD الخاص بك فقط إذا تم إلغاء الصفقة للفحص أو التقييم أو التمويل الطارئ. سيتم إرسال اتفاقية الشراء والبيع إلى البائع في نهاية مرحلة التمويل.";
+
+"closing_step" = "إنهاء مجموعة الشراء. أرسل وديعة الأموال الجادة (EMD) لتأمين مكانك. سيتم استرداد EMD الخاص بك فقط إذا تم إلغاء الصفقة للفحص أو التقييم أو التمويل الطارئ. سيتم إرسال اتفاقية الشراء والبيع إلى البائع في نهاية مرحلة التمويل.";
+"closed_step" = "مبروك ، مجموعتك الآن هي المالك الرسمي للعقار!";
+"steps" = "خطوات";
+"let_other" = "دع الآخرين يعرفون كم تريد أن تستثمر. لن تضطر إلى ترك وديعة حتى الآن.";
+"Requires a 20% deposit of" = "يتطلب إيداع 20٪ من";
+"Once the interest" = "بمجرد إغلاق جولة الفائدة ، يجب عليك إيداع 10٪ من إجمالي الالتزام الخاص بك لتأمين مكانك في العرض. سيتم إعادة مبلغ الإيداع الخاص بك إذا لم يتم تنفيذ الاقتراح.";
+"Committed Funds:" = "الأموال الملتزم بها:";

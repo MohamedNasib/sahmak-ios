@@ -1,0 +1,81 @@
+
+/* Class = "UILabel"; text = "Personal Data"; ObjectID = "1jA-yg-VcD"; */
+"1jA-yg-VcD.text" = "Personal Data";
+
+/* Class = "UILabel"; text = "Notification"; ObjectID = "30F-gh-7bb"; */
+"30F-gh-7bb.text" = "Notification";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "4lJ-SK-haV"; */
+"4lJ-SK-haV.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "01151029852"; ObjectID = "6VT-Mk-oef"; */
+"6VT-Mk-oef.text" = "01151029852";
+
+/* Class = "UILabel"; text = "FAQs"; ObjectID = "BF5-26-Be4"; */
+"BF5-26-Be4.text" = "FAQs";
+
+/* Class = "UILabel"; text = "Credit Cards"; ObjectID = "C3o-jp-Bli"; */
+"C3o-jp-Bli.text" = "Credit Cards";
+
+/* Class = "UILabel"; text = "Language"; ObjectID = "DpF-jd-L1X"; */
+"DpF-jd-L1X.text" = "Language";
+
+/* Class = "UILabel"; text = "Tutorial"; ObjectID = "Dvy-4s-tX2"; */
+"Dvy-4s-tX2.text" = "Tutorial";
+
+/* Class = "UILabel"; text = "Ahmed Massoud"; ObjectID = "HG4-AG-EuF"; */
+"HG4-AG-EuF.text" = "Ahmed Massoud";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ISv-qP-8ab"; */
+"ISv-qP-8ab.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "J9h-Ma-0G1"; */
+"J9h-Ma-0G1.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "LMv-oF-SH7"; */
+"LMv-oF-SH7.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "P5F-B3-M4V"; */
+"P5F-B3-M4V.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Qky-CA-Z5J"; */
+"Qky-CA-Z5J.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Contact Us"; ObjectID = "UmA-IP-bdd"; */
+"UmA-IP-bdd.text" = "Contact Us";
+
+/* Class = "UILabel"; text = "Change password"; ObjectID = "dvQ-CK-3ck"; */
+"dvQ-CK-3ck.text" = "Change password";
+
+/* Class = "UILabel"; text = "Account"; ObjectID = "ejP-YX-aUU"; */
+"ejP-YX-aUU.text" = "Account";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "gRz-Pi-lDu"; */
+"gRz-Pi-lDu.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "gVZ-9w-XJz"; */
+"gVZ-9w-XJz.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Dashboard"; ObjectID = "idQ-l9-BRN"; */
+"idQ-l9-BRN.text" = "Dashboard";
+
+/* Class = "UILabel"; text = "Profile"; ObjectID = "k1t-aC-eMz"; */
+"k1t-aC-eMz.text" = "Profile";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "kdk-T7-bce"; */
+"kdk-T7-bce.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Terms & conditions"; ObjectID = "ook-3b-bec"; */
+"ook-3b-bec.text" = "Terms & conditions";
+
+/* Class = "UILabel"; text = "Pop-up Notification"; ObjectID = "uKO-fg-1dv"; */
+"uKO-fg-1dv.text" = "Pop-up Notification";
+
+/* Class = "UIButton"; configuration.title = "Log out"; ObjectID = "x0Q-Z2-YpF"; */
+"x0Q-Z2-YpF.configuration.title" = "Log out";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "x0Q-Z2-YpF"; */
+"x0Q-Z2-YpF.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "zE0-hl-RlT"; */
+"zE0-hl-RlT.normalTitle" = "Button";
